@@ -1,0 +1,15 @@
+digraph {
+	fontname=SimHei rankdir=TB
+	Input [label="输入层
+(Token IDs, Attention Mask)" fontname=SimHei]
+	Embedding [label="Embedding
+(词向量 + 位置编码)" fontname=SimHei]
+	Encoder [label="BERT Encoder
+(Transformer 层)" fontname=SimHei]
+	Classifier [label="分类器
+(最终分类)" fontname=SimHei]
+	Input -> Embedding
+	Embedding -> Encoder
+	Encoder -> Classifier
+	Classifier -> Output [label="关系预测" fontname=SimHei]
+}

@@ -1,0 +1,6 @@
+Epochs: 3
+Batch Size: 2
+Learning Rate: 2e-5
+Epoch 1 Average Loss: 0.6789
+Epoch 2 Average Loss: 0.5445
+Epoch 3 Average Loss: 0.4700
